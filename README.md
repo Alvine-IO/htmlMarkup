@@ -5,7 +5,7 @@ A HTML DOM parser written in PHP5+ let you manipulate HTML-Node-Objects.
 
 http://doc.alvine.io/alvine.markup.html/
 
-## Install and running docker-lib
+## Install and running htmlMarkup
 
 Download Library from http://download.alvine.io
 
@@ -15,6 +15,8 @@ wget http://download.alvine.io/alvine.markup.html-<version>.phar.pubkey
 ````
 
 ## Usage
+
+### simple output
 
  ```php
 
@@ -27,6 +29,7 @@ echo (string) $html;
 <b><i>Auto</i></b>
 ```
 
+### dom-manipulation
 
  ```php
 $html = \Alvine\Markup\Html\Fragment::getInstanceFromString('<b><i>Auto</i></b>');
@@ -43,7 +46,7 @@ echo (string) $html;
 <b><i>Auto</i><div>Hallo World!</div></b>
 ```
 
-## HTML-Operations
+### HTML-Operations
 
 ```html
 <div>
@@ -57,6 +60,7 @@ echo (string) $html;
 </div>
 ```
 
+### Simple HTML-Operations
 
 ```php
 $html = <<<EOF
@@ -76,5 +80,7 @@ echo (new \Alvine\Markup\Html\Engine())
   <p>http://www.example.com</p>
 </div>
 ```
+
+## Dcumentation
 
 https://wiki.schukai.com/display/alvine2/HTML+-+Programmierung
