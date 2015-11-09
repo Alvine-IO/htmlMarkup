@@ -81,6 +81,6 @@ echo (new \Alvine\Markup\Html\Engine())
 </div>
 ```
 
-## Dcumentation
+## Documentation
 
 https://wiki.schukai.com/display/alvine2/HTML+-+Programmierung
