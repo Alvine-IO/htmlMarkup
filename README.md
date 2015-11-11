@@ -81,6 +81,13 @@ echo (new \Alvine\Markup\Html\Engine())
 </div>
 ```
 
+### Querys aka jquery
+
+```php
+echo (string) $fragment->find(new Selector('#opt2[class]'));
+echo (string) $fragment->find(new Selector('li[class!="selected"]'));
+```
+
 ## Documentation
 
 https://wiki.schukai.com/display/alvine2/HTML+-+Programmierung
