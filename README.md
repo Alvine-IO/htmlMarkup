@@ -1,9 +1,9 @@
 # htmlMarkup
-A HTML DOM parser written in PHP5+ let you manipulate HTML-Node-Objects.
+A HTML DOM parser written in PHP7+ let you manipulate HTML-Node-Objects.
 
 ## API Documentation
 
-http://doc.alvine.io/alvine.markup.html/
+http://doc.alvine.io/de/alvine.markup.html/component/snapshot/
 
 ## Install and running htmlMarkup
 
